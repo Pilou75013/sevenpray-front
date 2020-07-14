@@ -1,0 +1,38 @@
+.wrapper{
+  width:100vw;
+  height: 100vh;
+  background-image: url(./ZYBpp2.gif) ;
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.wrapper-title{
+  color: #fff;
+  font-weight: 900;
+  letter-spacing: 0.3em;
+  font-size: 5vw;
+  margin-bottom: 20vh;
+}
+
+.wrapper-title span{
+  color: rgb(240, 234, 150);
+}
+
+.wrapper .btn{
+  display: inline-block;
+  font-size: 2vw;
+  color: rgb(247, 213, 64);
+  padding: 2vw 3vw;
+  background: #fff;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.wrapper .btn:hover{
+  border-radius: 2vw;
+  letter-spacing:0.15em;
+}
